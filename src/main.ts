@@ -48,32 +48,48 @@
 
 // console.log(variableUno == variableDos);
 
-const Arreglo: number[] = [1,2,9,7,5,6,3]
+// const Arreglo: number[] = [1,2,9,7,5,6,3]
 
-for(let i = 0; i <= Arreglo.length; i++ ) {
-    console.log('Bucle for ' + Arreglo [i])
-}
-
-
-let i = 0
-while (i <= Arreglo.length) {
-
-    console.log('Bucle while ' + Arreglo [i])
-    i++
-
-}
-
-do {
-    console.log('Bucle do ' , Arreglo [i])
-    i++
-
-}
-while (i < Arreglo.length) 
+// for(let i = 0; i <= Arreglo.length; i++ ) {
+//     console.log('Bucle for ' + Arreglo [i])
+// }
 
 
+// let i = 0
+// while (i <= Arreglo.length) {
+
+//     console.log('Bucle while ' + Arreglo [i])
+//     i++
+
+// }
+
+// do {
+//     console.log('Bucle do ' , Arreglo [i])
+//     i++
+
+// }
+// while (i < Arreglo.length) 
 
 
+// import cualquiera from './funciones'
+// import { objeto2 } from './funciones'
 
+// import cualquiera 
+
+// console.log(cualquiera)
+
+// import funciones from './funciones'
+// import Funciones from './funciones'
+
+// funciones.mostarPorConsola()
+// funciones.mostarPorConsola()
+
+
+import Persona from "./clases";
+
+const persona1 = new Persona (21, 'sergio', 'santiago', 'estudiante', 100)
+
+console.log(persona1)
 
 
 
